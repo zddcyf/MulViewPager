@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.mul.test.view.PackViewPager
+    <com.mul.viewpager.view.PackViewPager
         android:id="@+id/packViewPager"
         android:layout_width="match_parent"
         android:layout_height="200dp">
@@ -39,7 +39,7 @@
             android:text="图片（0）"
             android:textColor="#323232"
             android:textSize="12sp" />
-    </com.mul.test.view.PackViewPager>
+    </com.mul.viewpager.view.PackViewPager>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/update"

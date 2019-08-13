@@ -1,10 +1,18 @@
 package com.mul.test.bean;
 
+import com.mul.viewpager.bean.ConfigBean;
+
 /**
- * Created by zdd
- * on 2018/12/25
- * at 15:56
- * summary:
+ * @ProjectName: MulViewPager
+ * @Package: com.mul.test.bean
+ * @ClassName: Banners
+ * @Author: zdd
+ * @CreateDate: 2019/8/13 14:00
+ * @Description: 测试轮播的数据源
+ * @UpdateUser: 更新者
+ * @UpdateDate: 2019/8/13 14:00
+ * @UpdateRemark: 更新说明
+ * @Version: v1.0.1
  */
 public class Banners implements ConfigBean {
     private Object pictures;

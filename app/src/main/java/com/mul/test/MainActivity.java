@@ -8,14 +8,26 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatTextView;
 
 import com.mul.test.bean.Banners;
-import com.mul.test.build.PackViewBuild;
-import com.mul.test.click.IVpItemClick;
-import com.mul.test.config.ViewPagerEnum;
-import com.mul.test.view.PackViewPager;
+import com.mul.viewpager.build.PackViewBuild;
+import com.mul.viewpager.click.IVpItemClick;
+import com.mul.viewpager.config.ViewPagerEnum;
+import com.mul.viewpager.view.PackViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @ProjectName: MulViewPager
+ * @Package: com.mul.test
+ * @ClassName: MainActivity
+ * @Author: zdd
+ * @CreateDate: 2019/8/13 14:00
+ * @Description: 测试轮播的测试类
+ * @UpdateUser: 更新者
+ * @UpdateDate: 2019/8/13 14:00
+ * @UpdateRemark: 更新说明
+ * @Version: v1.0.1
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private PackViewPager packViewPager;
     private PackViewBuild packViewBuild;
@@ -58,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        packViewBuild.setDefaultTextIndex(1).update();
+        packViewBuild.setDefaultTextIndex(0).update();
     }
 
     public void setDatas() {
